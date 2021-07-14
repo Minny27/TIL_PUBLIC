@@ -118,7 +118,7 @@ ex)
 ***
 
 > #### 10. 이미지 삽입
-![heart](/Users/seungmin/Blog_Thumbnail/프로필.jpg "agag")
+![heart](/Users/seungmin/heart.jpg)
 <!-- <img src="/Users/seungmin/Blog_Thumbnail/heart.jpg" width="450px" height="300px"> -->
 
 > #### 11. 표 만들기
