@@ -123,11 +123,25 @@ ex)
 * 링크를 cmd + 클릭을 했을 때 이미지가 나와야한다.
 ```
 ㅁ 상대주소로 접근
-![heart](Images/heart.jpg)
+![태그명](.git을 포함하고 있는 파일명/이미지.jpg)
+ex)
+![하트](Images/heart.jpg)
+
+또는
+
+<img src="git을 포함하고 있는 파일명/이미지.jpg" width="450px" height="300px"></img>
+ex)
 <img src="Images/heart.jpg" width="450px" height="300px"></img>
 
 ㅁ 절대주소로 접근
-![heart](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
+![태그](이미지 링크)
+ex)
+![하트](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
+
+또는
+
+<img src="이미지 링크" width="450px" height="300px"></img>
+ex)
 <img src="https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg" width="450px" height="300px"></img>
 ```
 
@@ -173,4 +187,5 @@ ex)
 
 > 참고 출처
 - [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+- [Readme(마크다운) 파일에 이미지 추가하기 및 크기 지정하기](https://cryptosalamander.tistory.com/110)
 - [마크다운 - 표(테이블) 만들기](https://inasie.github.io/it%EC%9D%BC%EB%B0%98/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
