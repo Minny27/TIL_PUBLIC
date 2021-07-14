@@ -149,26 +149,21 @@ ex)
 
 > #### 11. 정렬
 * 마크다운은 가운데 정렬만 지원하고 나머지는 정렬은 다음과 같이 진행할 수 있다.
-<p align="center">
-가운데
-</p>
-<p align="left">
-가운데
-</p>
-<p align="right">
-가운데
-</p>
 
 ```
 ㅁ 가운데
-    <center>가운데</center>  
+    <p align="center">
+        가운데
+    </p>
 
 ㅁ 왼쪽
-    <div style="text-align: left"> 왼쪽 </div>
-    
+    <p align="left">
+        왼쪽
+    </p>    
 ㅁ 오른쪽
-    <div style="text-align: right"> 오른쪽 </div>
-```
+    <p align="right">
+        오른쪽
+    </p>```
 
 ***
 
@@ -217,4 +212,4 @@ ex)
 - [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - [Readme(마크다운) 파일에 이미지 추가하기 및 크기 지정하기](https://cryptosalamander.tistory.com/110)
 - [마크다운 - 표(테이블) 만들기](https://inasie.github.io/it%EC%9D%BC%EB%B0%98/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
-- [마크다운 문법 공부](https://cizz3007.github.io/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%AC%B8%EB%B2%95/markdown/2018/04/08/markdown/)
+- [미슈니](https://mishuni.tistory.com/51)
