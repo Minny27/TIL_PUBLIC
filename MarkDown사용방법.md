@@ -152,9 +152,12 @@ ex)
 <p align="center">
 가운데
 </p>
-왼쪽 .text-left
-오른쪽 .text-right
-
+<p align="left">
+가운데
+</p>
+<p align="right">
+가운데
+</p>
 
 ```
 ㅁ 가운데
