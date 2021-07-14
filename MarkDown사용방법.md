@@ -118,9 +118,11 @@ ex)
 ***
 
 > #### 10. 이미지 삽입
-
-![heart](Images/heart.jpg)
+```
+<!-- ![heart](Images/heart.jpg) -->
 <!-- <img src="Images/heart.jpg" width="450px" height="300px"> -->
+```
+![heart](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
 
 > #### 11. 표 만들기
 ```
