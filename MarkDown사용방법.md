@@ -158,5 +158,5 @@ ex)
 ***
 
 > 참고 출처
-- [inasie](https://inasie.github.io/it%EC%9D%BC%EB%B0%98/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
-- [ihoneymon](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+- [마크다운 - 표(테이블) 만들기](https://inasie.github.io/it%EC%9D%BC%EB%B0%98/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
+- [마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
