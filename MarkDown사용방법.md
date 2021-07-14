@@ -149,7 +149,9 @@ ex)
 
 > #### 11. 정렬
 * 마크다운은 가운데 정렬만 지원하고 나머지는 정렬은 다음과 같이 진행할 수 있다.
-가운데 .text-center
+<p align="center">
+가운데
+</p>
 왼쪽 .text-left
 오른쪽 .text-right
 
