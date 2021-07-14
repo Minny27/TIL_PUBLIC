@@ -118,7 +118,7 @@ ex)
 ***
 
 > #### 10. 이미지 삽입
-![Alt text](/Users/seungmin/블로그 썸네일/7.jpg)
+[Alt text](/Users/seungmin/블로그 썸네일/7.jpg)
 
 > #### 11. 표 만들기
 ```
