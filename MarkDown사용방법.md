@@ -118,7 +118,7 @@ ex)
 ***
 
 > #### 10. 이미지 삽입
-![hi](/Users/seungmin/Blog_Thumbnail/heart.jpg)
+![heart](https://camo.githubusercontent.com/399282e26cc8c790b2d0e566946d3b26f519302d3b0a0cfb558d495062395423/687474703a2f2f6366696c6532342e75662e746973746f72792e636f6d2f696d6167652f32343434383733423537453235373832314641324145)
 <!-- <img src="/Users/seungmin/Blog_Thumbnail/heart.jpg" width="450px" height="300px"> -->
 
 > #### 11. 표 만들기
