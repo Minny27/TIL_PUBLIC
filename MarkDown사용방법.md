@@ -123,26 +123,26 @@ ex)
 * 링크를 cmd + 클릭을 했을 때 이미지가 나와야한다.
 ```
 ㅁ 상대주소로 접근
-![태그명](.git을 포함하고 있는 파일명/이미지.jpg)
-ex)
-![하트](Images/heart.jpg)
+    ![태그명](.git을 포함하고 있는 파일명/이미지.jpg)
+    ex)
+    ![하트](Images/heart.jpg)
 
-또는
+    또는
 
-<img src="git을 포함하고 있는 파일명/이미지.jpg" width="450px" height="300px"></img>
-ex)
-<img src="Images/heart.jpg" width="450px" height="300px"></img>
+    <img src="git을 포함하고 있는 파일명/이미지.jpg" width="450px" height="300px"></img>
+    ex)
+    <img src="Images/heart.jpg" width="450px" height="300px"></img>
 
 ㅁ 절대주소로 접근
-![태그](이미지 링크)
-ex)
-![하트](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
+    ![태그](이미지 링크)
+    ex)
+    ![하트](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
 
-또는
+    또는
 
-<img src="이미지 링크" width="450px" height="300px"></img>
-ex)
-<img src="https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg" width="450px" height="300px"></img>
+    <img src="이미지 링크" width="450px" height="300px"></img>
+    ex)
+    <img src="https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg" width="450px" height="300px"></img>
 ```
 
 > #### 11. 표 만들기
