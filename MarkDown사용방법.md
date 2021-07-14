@@ -120,15 +120,16 @@ ex)
 > #### 10. 이미지 삽입
 * 상대주소, 절대주소로 이미지를 업로드할 수 있다.
 * 여기서 주의할 점은 상대주소로 접근할 때는 .git파일이 포함된 리포지토리안에 이미지 파일이 포함되어 있어야한다.
+* 링크를 cmd + 클릭을 했을 때 이미지가 나와야한다.
 ```
 ㅁ 상대주소로 접근
 ![heart](Images/heart.jpg)
 <img src="Images/heart.jpg" width="450px" height="300px"></img>
-```
-<img src="Images/heart.jpg" width="450px" height="300px"></img>
 
 ㅁ 절대주소로 접근
-<!-- ![heart](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg) -->
+![heart](https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg)
+<img src="https://github.com/Minny27/TIL_PUBLIC/blob/main/Images/heart.jpg" width="450px" height="300px"></img>
+```
 
 > #### 11. 표 만들기
 ```
