@@ -16,7 +16,7 @@
 * **디버깅**
     - debugging 버그(벌레, 오류, 어원은 강의에서 설명) 제거하는 과정.  
     참고 출처 :  
-    [inflearn](https://www.inflearn.com/questions/17677)
+    [inflearn](https://www.inflearn.com/questions/17677)  
     [live-everyday](https://live-everyday.tistory.com/67)
 
 * **배포**
@@ -113,8 +113,7 @@ ex) 안드로이드, IOS, Spring, React Native
 * **REST API**
     - 자원 이름으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것  
     JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적  
-    참고 출처  
-    [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+    참고 출처 : [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
 
 * **크롤링**
     - 크롤링(crawling) 혹은 스크레이핑(scraping)은 웹 페이지를 그대로 가져와서 거기서 데이터를 추출해 내는 행위  
