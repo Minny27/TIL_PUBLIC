@@ -15,7 +15,7 @@
 
 * **디버깅**
     - debugging 버그(벌레, 오류, 어원은 강의에서 설명) 제거하는 과정.  
-    참고 출처 :  
+    참고 출처:  
     [inflearn](https://www.inflearn.com/questions/17677)  
     [live-everyday](https://live-everyday.tistory.com/67)
 
@@ -24,7 +24,7 @@
 
 * **릴리즈(Release)**
     - 같은 제품을 새롭게 만드는 것(예: 새로운 버전을 배포)  
-    참고 출처 : [배포의 의미](https://ukcasso.tistory.com/73)
+    참고 출처: [배포의 의미](https://ukcasso.tistory.com/73)
 
 > ### Framework
 소프트웨어를 개발하기 위한 뼈대 또는 기반구조
@@ -53,7 +53,7 @@ ex) 안드로이드, IOS, Spring, React Native
 * **MVC(모델-뷰-컨트롤러)**
     - MVC(모델-뷰-컨트롤러) 는 사용자 인터페이스, 데이터 및 논리 제어를 구현하는데 널리 사용되는 소프트웨어 디자인 패턴. 소프트웨어의 비즈니스 로직과 화면을 구분하는데 중점을 두고 있다.  
     MVC 에 기반을 둔 몇 가지 다른 디자인 패턴으로 MVVM (모델-뷰-뷰모델), MVP (모델-뷰-프리젠터), MVW (모델-뷰-왓에버) 가 있다.  
-    참고 출처 : [MDN](https://developer.mozilla.org/ko/docs/Glossary/MVC)
+    참고 출처: [MDN](https://developer.mozilla.org/ko/docs/Glossary/MVC)
 
 * **MVVM(모델-뷰-뷰모델)**
     - 모델-뷰-뷰 모델(model-view-viewmodel, MVVM)은 하나의 소프트웨어 아키텍처 패턴으로-마크업 언어 또는 GUI 코드로 구현하는-그래픽 사용자 인터페이스(뷰)의 개발을 비즈니스 로직 또는 백-엔드 로직(모델)로부터 분리시켜서 뷰가 어느 특정한 모델 플랫폼에 종속되지 않도록 해준다.  
@@ -64,7 +64,7 @@ ex) 안드로이드, IOS, Spring, React Native
 * **MVVM(모델-뷰-뷰모델)-C**
     - MVVM은 iOS에서 가장 많이 사용되는 응용 프로그램 디자인 패턴으로 MVC의 직접적인 변형이 아니다.  
     MVC의 직접적인 변형은 아니지만 극적으로 다르지 않다. 둘 다 View Controller 장면을 중심으로 구조화되어 있으며 대부분 동일한 machinery를 사용한다.  
-    참고 출처 : [junhyi-park](https://junhyi-park.medium.com/mvvm-c-%ED%95%99%EC%8A%B5%EC%9E%90%EB%A3%8C-%EC%A0%95%EB%A6%AC-7f169f3e376a)
+    참고 출처: [junhyi-park](https://junhyi-park.medium.com/mvvm-c-%ED%95%99%EC%8A%B5%EC%9E%90%EB%A3%8C-%EC%A0%95%EB%A6%AC-7f169f3e376a)
 
 * **MVP(모델-뷰-프리젠터)**
     - 모델-뷰-프리젠터(model-view-presenter, MVP)는 모델-뷰-컨트롤러(MVC) 아키텍처 패턴의 파생 패턴으로,사용자 인터페이스를 개발하기 위해 대부분 사용된다.  
@@ -94,7 +94,7 @@ ex) 안드로이드, IOS, Spring, React Native
 
 * **마이그래이션**
     - 데이터 마이그레이션은 데이터를 한 위치에서 다른 위치로, 한 형식에서 다른 형식으로 또는 한 애플리케이션에서 다른 애플리케이션으로 이동하는 프로세스  
-    참고 출처 : [netapp](https://www.netapp.com/ko/knowledge-center/what-is-data-migration/)
+    참고 출처: [netapp](https://www.netapp.com/ko/knowledge-center/what-is-data-migration/)
    
 * **클론 코딩**
     - 유튜브, 인스타그램, 카카오톡 등을 이용해서 실제 구현된 서비스를 직접 따라하면서 배우는 공부 방식
@@ -113,16 +113,20 @@ ex) 안드로이드, IOS, Spring, React Native
 * **REST API**
     - 자원 이름으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것  
     JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적  
-    참고 출처 : [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+    참고 출처: [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+
+* **JSON(JavaScript Object Notation))**
+    - 네트워크를 통해 데이터를 주고받는 데 자주 사용되는 경량의 데이터 형식
+    참고 출처: [ZeddiOS](https://zeddios.tistory.com/90)
 
 * **크롤링**
     - 크롤링(crawling) 혹은 스크레이핑(scraping)은 웹 페이지를 그대로 가져와서 거기서 데이터를 추출해 내는 행위  
-    참고 출처 : 나무위키
+    참고 출처: 나무위키
 
 * **CRUD**
     - CRUD는 대부분의 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(갱신), Delete(삭제)를 묶어서 일컫는 말. 사용자 인터페이스가 갖추어야 할 기능(정보의 참조/검색/갱신)을 가리키는 용어로서도 사용된다.  
-    참고 출처 : 위키백과
+    참고 출처: 위키백과
 
 * **Legacy System**
     - 레거시 시스템(legacy system)은 낡은 기술이나 방법론, 컴퓨터 시스템, 소프트웨어 등을 말한다. 이는 현대까지도 남아 쓰이는 기술을 부르는 말일 수도 있지만, 더이상 쓰이지 않더라도 현대의 기술에 영향을 주는 경우도 포함한다.  
-    참고 출처 : 위키백과
+    참고 출처: 위키백과
