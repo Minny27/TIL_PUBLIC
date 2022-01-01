@@ -1,4 +1,4 @@
-# 오픈 소스를 이용할 때 맥에어에서 terminal에서 추가적으로 실행해야할 코드
+# pod file install 시, 맥에어에서 terminal에서 추가적으로 실행해야할 코드
 pod init  
 sudo vi podfile -> podfile 수정  
 pod install  
