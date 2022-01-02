@@ -8,5 +8,5 @@ URL로 표시된 endpoints에서 데이터를 다운로드하고 업로드하기
 ***
 
 > ### Instance Method
-* **dataTask(func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask)**
-    - 지정된 URL request 객체를 기반으로 URL 내용을 검색하고 완료 시, completionHandler을 호출하는 작업을 만듦
+* **dataTask(with:completionHandler:)**
+    - 지정된 URL request 객체를 기반으로 URL 내용을 검색하고, 완료 시 completionHandler을 호출하는 작업을 만듦

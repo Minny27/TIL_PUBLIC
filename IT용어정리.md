@@ -20,11 +20,16 @@
     [live-everyday](https://live-everyday.tistory.com/67)
 
 * **배포**
-    - 최종 사용자에게 소프트웨어를 전달하는 과정. 인터넷으로부터 다운로드가 가능한 실행 파일 인스톨러를 갖춘 이진 배포의 형태.(위키백과)
+    - 최종 사용자에게 소프트웨어를 전달하는 과정.  
+    인터넷으로부터 다운로드가 가능한 실행 파일 인스톨러를 갖춘 이진 배포의 형태(위키백과)
 
 * **릴리즈(Release)**
     - 같은 제품을 새롭게 만드는 것(예: 새로운 버전을 배포)  
     참고 출처: [배포의 의미](https://ukcasso.tistory.com/73)
+
+* **UI 렌더링(Rendering)**
+    - 앱에서 프레임을 생성하여 화면에 표시하는 작업  
+    참고 출처: [AOS](https://developer.android.com/topic/performance/vitals/render?hl=ko)
 
 > ### Framework
 소프트웨어를 개발하기 위한 뼈대 또는 기반구조
@@ -35,7 +40,6 @@ ex) 안드로이드, IOS, Spring, React Native
    
 * **Flutter**
     - 구글이 개발한 오픈 소스 모바일 애플리케이션 개발 프레임 워크
-
 ***
 
 > ### Architecture Pattern
@@ -69,7 +73,6 @@ ex) 안드로이드, IOS, Spring, React Native
 * **MVP(모델-뷰-프리젠터)**
     - 모델-뷰-프리젠터(model-view-presenter, MVP)는 모델-뷰-컨트롤러(MVC) 아키텍처 패턴의 파생 패턴으로,사용자 인터페이스를 개발하기 위해 대부분 사용된다.  
     참고 출처 : 위키백과
-
 ***
 
 > ### 기타
