@@ -1,9 +1,9 @@
 # UINavigationController
 계층적으로 view controller를 탐색하기 위한 스택 기반의 컨테이너 view controller  
 navigation interface 기반으로 하나 이상의 자식 view controller를 관리하는 컨테이너 view controller  
-하나의 자식 view controller만 볼 수 있음  
-새로운 view controller를 push하게 되면 애니메이션이 적용되고 이전 view controller가 숨겨짐  
-back버튼 클릭 시, 현재 view controller를 제거되고 이전 view controller가 나타남
+하나의 자식 view controller만 볼 수 있습니다.  
+새로운 view controller를 push하게 되면 애니메이션이 적용되고 이전 view controller가 숨겨집니다.  
+back버튼 클릭 시, 현재 view controller를 제거되고 이전 view controller가 나타납니다.
 
 > ### Instance Property
 * **var isToolbarHidden: Bool**
@@ -22,7 +22,7 @@ back버튼 클릭 시, 현재 view controller를 제거되고 이전 view contro
 
 > ### Instance Method
 * **pushViewController(_ viewController: UIViewController, animated: Bool)**
-    - navigation stack의 top으로 밀어주어 새로운 view controller를 화면에 띄운다.
+    - navigation stack의 top으로 밀어주어 새로운 view controller를 화면에 띄웁니다.
     ```swift
     if let controller = self.storyboard?.instantiateViewController(withIdentifier : "DetailController") {
     self.navigationController?.pushViewController(controller, animated: true)
@@ -30,4 +30,4 @@ back버튼 클릭 시, 현재 view controller를 제거되고 이전 view contro
     ```
 
 * **func popViewController(animated: Bool) -> UIViewController?**
-    - navigation stack의 top view controller를 없애고 다음 view controller를 화면에 띄운다.
+    - navigation stack의 top view controller를 없애고 다음 view controller를 화면에 띄웁니다.
