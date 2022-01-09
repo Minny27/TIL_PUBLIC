@@ -21,7 +21,7 @@ REST **API**는 **리소스 상태에 대한 표현(JSON, HTML)을 요청자에�
 <br>
 
 > ### RESTful
-- RESTful은 REST라는 아키텍처를 구현하는 웹 서비스를 나타내는 것으로 **REST 원리를 따르는 시스템**을 RESTful이라는 용어로 지칭한다.
+- RESTful은 REST라는 아키텍처를 구현하는 웹 서비스를 나타내는 것으로 **REST 원리를 따르는 시스템**을 RESTful이라는 용어로 지칭합니다.
 
 <br>
 
