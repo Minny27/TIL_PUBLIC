@@ -13,6 +13,13 @@
 > ### 인터넷(Internet)
 - 인터넷(Internet)은 인터넷 프로토콜 스위트(TCP/IP)를 기반으로 하여 전 세계적으로 연결되어있는 컴퓨터 네트워크 통신망을 일컫는 말
 
+> ### URI(Uniform Resource Identifier)
+- 통합 자원 식별자(Uniform Resource Identifier, URI)는 **인터넷에 있는 자원을 나타내는 유일한 주소**이다.  
+URI의 하위개념으로 URL, URN 이 있다.
+
+> ### URL(Uniform Resource Locator)
+- URL(Uniform Resource Locator 또는 통칭 web address)은 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약이다. 즉, 컴퓨터 네트워크와 검색 메커니즘에서의 위치를 지정하는, 웹 리소스에 대한 참조이다. 쉽게 말해서, **웹 페이지를 찾기위한 주소**를 말한다. 흔히 웹 사이트 주소로 알고 있지만, URL은 **웹 사이트 주소뿐만 아니라 컴퓨터 네트워크상의 자원**을 모두 나타낼 수 있다. 
+
 > ### IP 주소(Internet Protocol address)
 - IP 주소란 많은 컴퓨터들이 **인터넷 상에서 서로를 인식하기 위해 지정받은 식별 번호**  
 현재는 IPv4 버전(32비트)로 구성되어 있으며 한번씩은 들어봤을 법한 127.0.0.1 같은 주소를 말합니다.  
@@ -27,3 +34,4 @@
 - [hyuntaekhong](https://hyuntaekhong.github.io/blog/Network/)
 - [sophia2730](https://sophia2730.tistory.com/entry/DNS-%EC%A3%BC%EC%86%8C%EC%B0%BD%EC%97%90-wwwnavercom%EC%9D%84-%EC%B9%98%EB%A9%B4-%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94-%EC%9D%BC)
 - 나무위키
+- 위키백과
