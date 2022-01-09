@@ -21,6 +21,8 @@ TCP/IP 프로토콜을 이용하여 통신을 진행할 때, 클라이언트 서
 마지막으로 접속 요청 프로세스 **CLIENT가 수락 확인을 보내 연결을 맺음 (ACK)**  
 이때, 전송할 데이터가 있으면 이 단계에서 데이터를 전송할 수 있습니다.
 
+<br>
+
 > 참고 출처
 - [WooVictory](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Network/3%20way%20handshake.md)
 - [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/19/tcp-connection.html)

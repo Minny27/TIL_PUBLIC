@@ -7,5 +7,7 @@
 - 흐름 제어, 혼잡 제어, 오류 제어를 하지 않으므로 **손상된 세그먼트에 대한 재전송을 하지 않습니다**.
 이로 인해 **속도가 빠르며 네트워크 부하가 적다**는 장점이 있지만, **신뢰성 있는 데이터 전송을 보장하지 못한다**는 단점이 있습니다.
 
+<br>
+
 > 참고 출처
 - [WooVictory](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Network/UDP.md)

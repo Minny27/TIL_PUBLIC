@@ -8,5 +8,7 @@
 흐름 제어, 혼잡 제어, 오류 제어를 통해 **신뢰성을 보장**합니다. 그러나 이 때문에 **UDP보다 전송 속도가 느리다**는 단점이 있습니다.  
 TCP를 사용하는 예로는 대부분의 웹 HTTP 통신, 이메일, 파일 전송에 사용됩니다.
 
+<br>
+
 > 참고 출처
 - [WooVictory](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Network/TCP.md)
