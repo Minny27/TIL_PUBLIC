@@ -1,9 +1,14 @@
-# REST
+# REST API
 
 > ### REST(Representational State Transfer)
 - **Client와 Server 간 통신 방식 중 하나**로, 웹의 장점을 최대한 활용할 수 있는 소프트웨어 아키텍처입니다.
-- Client는 **자원(URI)을 명시**하고 **자원을 처리(GET, POST, PUT, DELETE)하도록** 요청을 보내면  
-REST **API**는 **리소스 상태에 대한 표현(JSON, HTML)을 요청자에게 전송**합니다.
+
+<br>
+
+> ### REST API
+- REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그래밍 인터페이스를 뜻합니다.
+- Client는 Rest API를 통해 **자원(URI)을 명시**하고 **자원을 처리(GET, POST, PUT, DELETE)하도록** 요청을 보내면  
+REST API는 **리소스 상태에 대한 표현(JSON, HTML)을 요청자에게 전송**합니다.
 
 <br>
 
@@ -15,7 +20,7 @@ REST **API**는 **리소스 상태에 대한 표현(JSON, HTML)을 요청자에�
 <br>
 
 > ### API(Application Programming Interface)
-- **프로그램들이 서로 상호작용하는 것을 도와주는 매개체**
+- **소프르웨어 간 지정된 형식으로 데이터를 요청 및 응답할 수 있는 수단**
 - 컴퓨터나 컴퓨터 프로그램 사이의 연결. 일종의 소프트웨어 인터페이스이며 다른 종류의 소프트웨어에 서비스를 제공합니다.
 - 한쪽 당사자가 특정한 방식으로 구성된 원격 요청을 보내면 다른 쪽 당사자의 소프트웨어가 이에 응답하는 방식
 
@@ -32,4 +37,5 @@ REST **API**는 **리소스 상태에 대한 표현(JSON, HTML)을 요청자에�
 - [redhat](https://www.redhat.com/ko/topics/api/what-is-a-rest-api)
 - [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
 - [kho5420](https://velog.io/@kho5420/Web-API-%EA%B7%B8%EB%A6%AC%EA%B3%A0-EndPoint)
+- [얄팍한코딩사전](https://www.youtube.com/watch?v=iOueE9AXDQQ)
 - 위키백과
