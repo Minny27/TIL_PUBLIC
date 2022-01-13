@@ -1,5 +1,13 @@
 # Git
-깃은 여러 명의 사용자들이 작업하는 소스 파일 관리를 위한 위한 분산 버전 관리 시스템이다. (위키백과)
+
+> ### Git
+- **소스 파일의 버전 관리를 위한 소프트웨어**
+- 여러 명의 사용자들이 작업하는 소스 파일 관리를 위한 위한 분산 버전 관리 시스템.
+
+<br>
+
+> ### GitHub
+- Git으로 저장한 데이터를 원격 전송으로 저장되도록 공간을 제공하는 서비스.
 
 <br>
 
@@ -184,3 +192,5 @@ Push를 하기전에 항상 Pull을 먼저 해야 충돌이 발생하지 않을 
 - [webclub](https://webclub.tistory.com/132?category=546363)
 - [backlog](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
 - [imacoolgirlyo](https://velog.io/@imacoolgirlyo/Git-fork%EC%99%80-clone-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-5sjuhwfzgp)
+- [얄팍한코딩사전](https://www.youtube.com/watch?v=Bd35Ze7-dIw)
+- 위키백과
