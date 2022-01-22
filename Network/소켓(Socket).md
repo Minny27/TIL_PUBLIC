@@ -35,7 +35,9 @@
 <br>
 
 > ### 종착점(Endpoint)
-- 클라이언트 응용 프로그램이 서비스에 액세스할 수 있는 URL입니다.
+- 클라이언트 응용 프로그램이 **서비스에 액세스할 수 있는 URL**
+- **요청을 받아 응답을 제공하는 서비스를 사용할 수 있는 지점**
+- Base URL + Path Variable + Query Parameter 모두를 포함한 URL
 
 <br>
 
@@ -53,4 +55,5 @@
 - [on1ystar](https://on1ystar.github.io/socket%20programming/2021/03/16/socket-1/)
 - [mozilla](https://developer.mozilla.org/ko/docs/Glossary/Protocol)
 - [djaxornwkd12](https://velog.io/@djaxornwkd12/API%EC%99%80-ENDPOINT%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+- [toneyparky](https://toneyparky.tistory.com/6)
 - 위키백과
