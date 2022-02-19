@@ -6,3 +6,8 @@
 > ### Instance Property
 * **contentOffset**
     - 컨텐츠 뷰의 원점이 스크롤 뷰의 원점에서부터 벌어진 지점
+***
+
+> ### Instance Method
+* **func setContentOffset(_ contentOffset: CGPoint, animated: Bool)**
+    - 수신기의 원점과 일치하는 컨텐츠 뷰의 원점으로부터의 간격띄우기를 설정합니다.
