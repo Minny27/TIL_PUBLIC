@@ -119,7 +119,7 @@ ex) 안드로이드, IOS, Spring, React Native
     참고 출처: [gmlwjd9405](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
 
 * **JSON(JavaScript Object Notation))**
-    - 네트워크를 통해 데이터를 주고받는 데 자주 사용되는 경량의 데이터 형식
+    - 네트워크를 통해 데이터를 주고받는 데 자주 사용되는 경량의 데이터 형식  
     참고 출처: [ZeddiOS](https://zeddios.tistory.com/90)
 
 * **크롤링**
@@ -133,3 +133,7 @@ ex) 안드로이드, IOS, Spring, React Native
 * **Legacy System**
     - 레거시 시스템(legacy system)은 낡은 기술이나 방법론, 컴퓨터 시스템, 소프트웨어 등을 말한다. 이는 현대까지도 남아 쓰이는 기술을 부르는 말일 수도 있지만, 더이상 쓰이지 않더라도 현대의 기술에 영향을 주는 경우도 포함한다.  
     참고 출처: 위키백과
+
+* **트래픽(traffic)**
+    - 트래픽(traffic)이란 서버에 흐르는 데이터의 총량  
+    참고 출처: [해시넷](http://wiki.hash.kr/index.php/%ED%8A%B8%EB%9E%98%ED%94%BD)
