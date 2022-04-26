@@ -137,3 +137,7 @@ ex) 안드로이드, IOS, Spring, React Native
 * **트래픽(traffic)**
     - 트래픽(traffic)이란 서버에 흐르는 데이터의 총량  
     참고 출처: [해시넷](http://wiki.hash.kr/index.php/%ED%8A%B8%EB%9E%98%ED%94%BD)
+
+* **URL 리다이렉션**
+    - URL 리다이렉션(URL redirection, URL 넘겨주기)은 이용 가능한 웹 페이지를 하나 이상의 URL 주소로 만들어주는 월드 와이드 웹 기법입니다.
+    - **넘겨받은 URL을 웹 브라우저가 열려고 하면 다른 URL의 문서가 열리게 됩니다.**(위키백과)
