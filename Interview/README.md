@@ -17,6 +17,7 @@
 - [ ] Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 - [ ] Auto Layout과 Frame-based Layout의 차이점은 무엇인가요?
 
+<br>
 
 ## Swift
 - [ ] struct와 class와 enum의 차이를 설명하시오.
@@ -83,5 +84,5 @@
 
 <br>
 
-### 참고 출처
+### ※ 참고 출처
 [JeaSungLEE](https://github.com/JeaSungLEE/iOSInterviewquestions)
