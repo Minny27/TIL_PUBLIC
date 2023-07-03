@@ -9,6 +9,7 @@
 - [ ] Dynamic Library와 Static Library의 차이점에 대해 설명해보세요.
 - [ ] layoutIfNeeded vs setNeedsLayout
 
+<br>
 
 ## Auto Layout
 - [ ] 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -28,6 +29,7 @@
 - [ ] Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 
+<br>
 
 ## ARC & MRC
 - [ ] ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)
@@ -35,21 +37,25 @@
 - [ ] 순환 참조에 대하여 설명하시오.
 - [ ] 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 
+<br>
 
 ## Functional Programming
 - [ ] 함수형 프로그래밍이 무엇인지 설명하시오.
 - [ ] 고차 함수가 무엇인지 설명하시오.
 - [ ] Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 
+<br>
 
 ## Architecture
 - [ ] MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - [ ] 의존성 주입에 대하여 설명하시오.
 
+<br>
 
 ## SwiftUI
 - [ ] @State에 대해서 설명하시오.
 
+<br>
 
 ## Combine
 - [ ] PassthroughSubject, CurrentValueSubject에 대해서 설명하시오
@@ -59,6 +65,7 @@
 - [ ] throttle과 debounce의 차이점을 설명하시오.
 - [ ] Data를 Binding 하는 방법에 대해서 설명하시오.
 
+<br>
 
 ## Rx
 - [ ] Reactive Programming이 무엇인지 설명하시오.
@@ -68,11 +75,13 @@
 - [ ] Subject의 종류와 차이점에 대해 설명하시오.
 - [ ] Subject와 Driver의 차이를 설명하시오.
 
+<br>
+
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
 - [ ] class 메서드와 static 메서드의 차이점을 설명하시오.
 
-
+<br>
 
 ### 참고 출처
 [JeaSungLEE](https://github.com/JeaSungLEE/iOSInterviewquestions)
