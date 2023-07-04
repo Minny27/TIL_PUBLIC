@@ -2,7 +2,7 @@
 
 ## iOS
 - [x] [Bounds 와 Frame 의 차이점을 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/2)
-- [ ] ViewController의 생명주기를 설명하시오.
+- [x] [ViewController의 생명주기를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/4)
 - [ ] TableView와 CollectionView의 차이점을 설명하시오.
 - [ ] App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - [ ] URLSession에 대해서 설명하시오.
@@ -42,6 +42,7 @@
 - [ ] 의존성 주입에 대하여 설명하시오.
 
 ## SwiftUI
+- [ ] SwiftUI 생명주기에 대해서 설명하시오.
 - [ ] @State에 대해서 설명하시오.
 
 ## Combine
