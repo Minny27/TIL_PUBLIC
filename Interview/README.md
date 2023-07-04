@@ -45,8 +45,7 @@
 - [ ] @State에 대해서 설명하시오.
 
 ## Combine
-- [ ] PassthroughSubject, CurrentValueSubject에 대해서 설명하시오
-- [ ] @Published에 대해서 설명하시오
+- [ ] PassthroughSubject, CurrentValueSubject, @Published에 대해서 설명하고 차이점에 대해 설명하시오.
 - [ ] AnyCancellable에 대해서 설명하시오
 - [ ] sink에 대해서 설명하시오
 - [ ] throttle과 debounce의 차이점을 설명하시오.
