@@ -2,7 +2,7 @@
 UIKit 앱의 view 계층을 관리하는 객체
 
 ## Overview
-모든 뷰 컨트롤러에서 공통으로 공유된 동작을 정의합니다. UiViewController 클래스의 인스턴스를 직접 생성하는 경우는 거의 없습니다. 대신에, UIViewController를 서브클래스로 만들어서 view controller의 뷰의 계층을 관리하는데 필요한 메서드와 프로퍼티를 추가합니다.
+모든 뷰 컨트롤러에서 공통으로 공유된 동작을 정의합니다. UIViewController 클래스의 인스턴스를 직접 생성하는 경우는 거의 없습니다. 대신에, UIViewController를 서브클래스로 만들어서 view controller의 뷰의 계층을 관리하는데 필요한 메서드와 프로퍼티를 추가합니다.
 
 view controller의 주요 책임은 다음을 포함합니다:
 - 기본적인 데이터의 변화에 응답해서 view의 콘텐츠를 업데이트합니다.
