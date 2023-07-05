@@ -42,7 +42,7 @@
 - [ ] 의존성 주입에 대하여 설명하시오.
 
 ## SwiftUI
-- [ ] SwiftUI 생명주기에 대해서 설명하시오.
+- [x] [SwiftUI 뷰의 생명주기에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/6)
 - [ ] @State에 대해서 설명하시오.
 
 ## Combine
