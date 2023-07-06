@@ -10,7 +10,7 @@
 - [ ] layoutIfNeeded vs setNeedsLayout
 
 ## Auto Layout
-- [ ] 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
+- [x] [오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)](https://github.com/Minny27/TIL_PUBLIC/issues/5)
 - [ ] Intrinsic Size에 대해서 설명하시오.
 - [ ] Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 - [ ] Auto Layout과 Frame-based Layout의 차이점은 무엇인가요?
