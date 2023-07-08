@@ -62,7 +62,7 @@
 - [ ] RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
 - [ ] Subject의 종류와 차이점에 대해 설명하시오.
 - [ ] Subject와 Driver의 차이를 설명하시오.
-- [ ] bind와 subscribe 메서드의 차이를 설명하시오.
+- [x] [bind와 subscribe 메서드의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/9)
 
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
