@@ -48,7 +48,7 @@
 ## Combine
 - [ ] Stream에 대해서 설명하시오.
 - [ ] 옵저버 패턴에 대해서 설명하시오.
-- [ ] Subject, Subscriber에 대해 설명하시오.
+- [x] [Subject, Subscriber에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/7)
 - [ ] PassthroughSubject, CurrentValueSubject, @Published에 대해서 설명하고 차이점에 대해 설명하시오.
 - [ ] AnyCancellable에 대해서 설명하시오
 - [ ] sink에 대해서 설명하시오
