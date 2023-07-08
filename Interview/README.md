@@ -47,6 +47,7 @@
 
 ## Combine
 - [ ] Stream에 대해서 설명하시오.
+- [ ] 옵저버 패턴에 대해서 설명하시오.
 - [ ] Subject, Subscriber에 대해 설명하시오.
 - [ ] PassthroughSubject, CurrentValueSubject, @Published에 대해서 설명하고 차이점에 대해 설명하시오.
 - [ ] AnyCancellable에 대해서 설명하시오
