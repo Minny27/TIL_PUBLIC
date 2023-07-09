@@ -64,6 +64,10 @@
 - [ ] Subject와 Driver의 차이를 설명하시오.
 - [x] [bind와 subscribe 메서드의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/9)
 
+## Backend
+- [ ] Rest API란 무엇인지 설명하시오.
+- [ ] Body vs Parameter에 대해서 설명하시오.
+
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
 - [ ] class 메서드와 static 메서드의 차이점을 설명하시오.
