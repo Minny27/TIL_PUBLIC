@@ -66,7 +66,7 @@
 
 ## Backend
 - [ ] Rest API란 무엇인지 설명하시오.
-- [ ] Body vs Parameter에 대해서 설명하시오.
+- [x] [Body vs Parameter에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/10)
 
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
