@@ -27,6 +27,23 @@ if let index = binarySearch(array: array, left: 0, right: array.count - 1, targe
     print("10의 위치 - \(index)") // 3
 }
 
+// 제네릭 타입 구현
+func binarySearch<T: Comparable>(_ array: [T], target: T) -> Int? {
+    var (l, r) = (0, array.count - 1)
+
+    while l <= r {
+        let m = (l + r) / 2
+        if array[m] == target {
+            return m
+        } else if array[m] < target {
+            l = m + 1
+        } else {
+            r = m - 1
+        }
+    }
+    return l
+}
+
 // Array 확장을 통한 구현
 extension Array where Element: Equatable {
     func binarySearch(_ target: Element,
@@ -46,7 +63,7 @@ extension Array where Element: Equatable {
                 right = mid - 1
             }
         }
-        return nil
+        return left
     }
 }
 
