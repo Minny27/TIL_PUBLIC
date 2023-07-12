@@ -36,6 +36,7 @@
 - [ ] 함수형 프로그래밍이 무엇인지 설명하시오.
 - [ ] 고차 함수가 무엇인지 설명하시오.
 - [ ] Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
+- [ ] SOLID(객체지향 개발 5대 원리)에 대해서 설명하시오.
 
 ## Architecture
 - [ ] MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
