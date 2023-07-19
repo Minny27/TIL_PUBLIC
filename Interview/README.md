@@ -3,7 +3,7 @@
 ## iOS
 - [x] [Bounds 와 Frame 의 차이점을 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/2)
 - [x] [ViewController의 생명주기를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/4)
-- [ ] TableView와 CollectionView의 차이점을 설명하시오.
+- [ ] TableView와 CollectionView의 차이점을 설명하시오.  
 - [ ] App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - [ ] URLSession에 대해서 설명하시오.
 - [ ] Dynamic Library와 Static Library의 차이점에 대해 설명해보세요.
@@ -18,7 +18,7 @@
 ## Swift
 - [ ] struct와 class와 enum의 차이를 설명하시오.
 - [ ] Optional 이란 무엇인지 설명하시오.
-- [ ] Delegates와 Notification 방식의 차이점에 대해 설명하시오.
+- [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 - [ ] Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
@@ -30,7 +30,7 @@
 - [ ] ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)
 - [ ] Strong 과 Weak 참조 방식에 대해 설명하시오.
 - [ ] 순환 참조에 대하여 설명하시오.
-- [ ] 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
+- [ ] 강한 순환 참조 (Strong Reference Cycle)는 어떤 경우에 발생하는지 설명하시오.
 
 ## Functional Programming
 - [ ] 함수형 프로그래밍이 무엇인지 설명하시오.
