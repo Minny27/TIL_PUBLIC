@@ -28,7 +28,7 @@
 
 ## ARC & MRC
 - [ ] ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)
-- [ ] Strong 과 Weak 참조 방식에 대해 설명하시오.
+- [ ] [Strong 과 Weak 참조 방식에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/13)
 - [x] [순환 참조에 대하여 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/12)
 - [ ] 강한 순환 참조 (Strong Reference Cycle)는 어떤 경우에 발생하는지 설명하시오.
 
