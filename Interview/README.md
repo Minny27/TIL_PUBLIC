@@ -16,7 +16,7 @@
 - [ ] Auto Layout과 Frame-based Layout의 차이점은 무엇인가요?
 
 ## Swift
-- [ ] struct와 class와 enum의 차이를 설명하시오.
+- [ ] [Struct와 Class와 Enum의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/14)
 - [ ] Optional 이란 무엇인지 설명하시오.
 - [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
