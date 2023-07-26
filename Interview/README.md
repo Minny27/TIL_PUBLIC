@@ -18,12 +18,7 @@
 ## Swift
 - [x] [Struct와 Class와 Enum의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/14)
 - [ ] Optional 이란 무엇인지 설명하시오.
-- [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
-- [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
-- [ ] Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
-- [ ] Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
-- [ ] Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 
 ## ARC & MRC
@@ -38,7 +33,13 @@
 - [ ] Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 - [ ] SOLID(객체지향 개발 5대 원리)에 대해서 설명하시오.
 
-## Architecture
+## Design Pattern
+- [ ] Delegate Pattern에 대해서 설명하시오.
+- [ ] Observer Pattern에 대해서 설명하시오.
+- [ ] [Singleton Pattern에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/15)
+- [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
+
+## Architecture Pattern
 - [ ] MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - [ ] 의존성 주입에 대하여 설명하시오.
 
