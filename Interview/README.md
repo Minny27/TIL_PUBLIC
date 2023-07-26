@@ -38,6 +38,7 @@
 - [ ] Observer Pattern에 대해서 설명하시오.
 - [ ] [Singleton Pattern에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/15)
 - [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
+- [ ] [Design Pattern과 Architecture Pattern에 차이에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/16)
 
 ## Architecture Pattern
 - [ ] MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
