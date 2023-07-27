@@ -23,7 +23,7 @@
 - [ ] Struct의 멤버로 Class instance와 Class의 멤버로 Struct의 메모리 구조에 대해서 설명하시오.
 
 ## ARC & MRC
-- [ ] [ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)](https://github.com/Minny27/TIL_PUBLIC/issues/17)
+- [x] [ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)](https://github.com/Minny27/TIL_PUBLIC/issues/17)
 - [x] [Strong, Weak, Unowned 참조 방식에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/13)
 - [x] [순환 참조에 대하여 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/12)
 - [ ] 강한 순환 참조 (Strong Reference Cycle)는 어떤 경우에 발생하는지 설명하시오.
