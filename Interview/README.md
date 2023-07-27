@@ -20,6 +20,7 @@
 - [ ] Optional 이란 무엇인지 설명하시오.
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
+- [ ] Struct의 멤버로 Class instance와 Class의 멤버로 Struct의 메모리 구조에 대해서 설명하시오.
 
 ## ARC & MRC
 - [ ] [ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)](https://github.com/Minny27/TIL_PUBLIC/issues/17)
@@ -71,10 +72,15 @@
 - [ ] Rest API란 무엇인지 설명하시오.
 - [x] [Body vs Parameter에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/10)
 
+## Data Structure
+- [ ] Stack 자료구조의 특징과 예시에 대해서 서술하시오.
+- [ ] Queue 자료구조의 특징과 예시에 대해서 서술하시오.
+- [ ] Heap 자료구조의 특징과 예시에 대해서 서술하시오.
+- [ ] Tree 자료구조의 특징과 예시에 대해서 서술하시오.
+
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
 - [ ] class 메서드와 static 메서드의 차이점을 설명하시오.
-- [ ] Stack, Queue, Heap 자료구조의 특징과 예시에 대해서 서술하시오.
 
 <br>
 
