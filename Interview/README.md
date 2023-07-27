@@ -74,6 +74,7 @@
 ## Computer Science
 - [ ] 타입 변환(Type Casting)과 다형성(Polymorphism)에 대해 설명해보세요.
 - [ ] class 메서드와 static 메서드의 차이점을 설명하시오.
+- [ ] Stack, Queue, Heap 자료구조의 특징과 예시에 대해서 서술하시오.
 
 <br>
 
