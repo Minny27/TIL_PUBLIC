@@ -32,6 +32,7 @@
 - [ ] 고차 함수가 무엇인지 설명하시오.
 - [ ] Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 - [ ] SOLID(객체지향 개발 5대 원리)에 대해서 설명하시오.
+- [ ] Object와 Instance의 차이점에 대해서 설명하시오.
 
 ## Design Pattern
 - [ ] Delegate Pattern에 대해서 설명하시오.
