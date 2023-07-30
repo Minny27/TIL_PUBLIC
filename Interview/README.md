@@ -17,7 +17,7 @@
 
 ## Swift
 - [x] [Struct와 Class와 Enum의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/14)
-- [] [Optional 이란 무엇인지 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/19)
+- [x] [Optional 이란 무엇인지 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/19)
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 - [x] [Struct의 멤버로 Class instance와 Class의 멤버로 Struct의 메모리 구조에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/18)
@@ -87,3 +87,4 @@
 ### ※ 참고 출처
 [JeaSungLEE](https://github.com/JeaSungLEE/iOSInterviewquestions)
 [애플 개발자 문서](https://developer.apple.com/documentation)
+[Swift Langage Guide](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
