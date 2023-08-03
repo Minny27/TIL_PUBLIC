@@ -71,6 +71,8 @@
 ## Backend
 - [ ] Rest API란 무엇인지 설명하시오.
 - [x] [Body vs Parameter에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/10)
+- [ ] JWT에 대해서 설명하시오.
+- [ ] Access token, Refresh token에 대해서 설명하시오.
 
 ## Data Structure
 - [ ] Stack 자료구조의 특징과 예시에 대해서 서술하시오.
