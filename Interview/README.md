@@ -4,7 +4,7 @@
 - [x] [Bounds 와 Frame 의 차이점을 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/2)
 - [x] [ViewController의 생명주기를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/4)
 - [ ] TableView와 CollectionView의 차이점을 설명하시오.  
-- [ ] App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
+- [ ] [App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/23)
 - [ ] URLSession에 대해서 설명하시오.
 - [ ] Dynamic Library와 Static Library의 차이점에 대해 설명해보세요.
 - [ ] layoutIfNeeded vs setNeedsLayout
