@@ -35,10 +35,8 @@
 - [ ] Object와 Instance의 차이점에 대해서 설명하시오.
 
 ## Design Pattern
-- [ ] Delegate Pattern에 대해서 설명하시오.
-- [ ] Observer Pattern에 대해서 설명하시오.
 - [x] [Singleton Pattern에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/15)
-- [x] [Delegates와 Notification 방식의 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
+- [x] [Delegates와 Notification 방식의 개념과 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/11)
 - [x] [Design Pattern과 Architecture Pattern에 차이에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/16)
 
 ## Architecture Pattern
