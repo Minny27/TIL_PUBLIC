@@ -67,7 +67,7 @@
 - [x] [bind와 subscribe 메서드의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/9)
 
 ## Backend
-- [ ] Rest API란 무엇인지 설명하시오.
+- [ ] [Rest API란 무엇인지 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/26)
 - [x] [Body vs Parameter에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/10)
 - [x] [JWT에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/24)
 - [ ] Access token, Refresh token에 대해서 설명하시오.
