@@ -40,7 +40,7 @@
 - [x] [Design Pattern과 Architecture Pattern에 차이에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/16)
 
 ## Architecture Pattern
-- [ ] MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍처를 설명하시오.
+- [ ] [MVC, MVVM, MVP, MVI, Ribs, VIP 등 자신이 알고있는 아키텍처를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/27)
 - [ ] 의존성 주입에 대하여 설명하시오.
 
 ## SwiftUI
