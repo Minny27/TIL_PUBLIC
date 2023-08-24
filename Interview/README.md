@@ -59,11 +59,12 @@
 
 ## Rx
 - [ ] Reactive Programming이 무엇인지 설명하시오.
-- [ ] RxSwift를 왜 사용하는지 설명하시오.
-- [ ] RxSwift의 단점을 설명하시오.
+- [ ] Observable, Operator, Scheduler에 대해서 설명하시오.
+- [ ] RxSwift의 장단점을 설명하시오.
 - [ ] RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
-- [ ] Subject의 종류와 차이점에 대해 설명하시오.
-- [ ] [Single에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/29)
+- [ ] [자주 사용하는 Operator에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/31)
+- [x] [Subject의 종류와 차이점에 대해 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/30)
+- [x] [Single에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/29)
 - [ ] [Subject와 Driver의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/28)
 - [x] [bind와 subscribe 메서드의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/9)
 
