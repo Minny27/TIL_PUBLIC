@@ -21,7 +21,7 @@
 - [ ] 멀티 스레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 - [x] [Struct의 멤버로 Class instance와 Class의 멤버로 Struct의 메모리 구조에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/18)
-- [ ] [Protocol과 Inheritance의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/35)
+- [ ] [Inheritance과 Protocol의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/35)
 
 ## ARC & MRC
 - [x] [ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)](https://github.com/Minny27/TIL_PUBLIC/issues/17)
