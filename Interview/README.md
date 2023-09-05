@@ -22,7 +22,7 @@
 - [ ] Swift에서 타입 안전성(type safety)은 어떤 방식으로 보장되나요?
 - [x] [Struct의 멤버로 Class instance와 Class의 멤버로 Struct의 메모리 구조에 대해서 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/18)
 - [x] [Inheritance과 Protocol의 차이를 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/35)
-- [ ] [lazy vazy와 let의 차이점을 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/37)
+- [x] [lazy var와 let의 차이점을 설명하시오.](https://github.com/Minny27/TIL_PUBLIC/issues/37)
 
 ## ARC & MRC
 - [x] [ARC(Automic Reference Counting) vs MRC(Manual Reference Counting)](https://github.com/Minny27/TIL_PUBLIC/issues/17)
