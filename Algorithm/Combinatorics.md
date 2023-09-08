@@ -22,7 +22,8 @@
             result.append(subArray)
             return
         }
-        
+
+        // 순서를 고려하지 않기 때문에 index에서 n까지 반복
         for i in stride(from: index, to: n, by: 1) {
             if visited[i] { continue }
             
@@ -81,7 +82,8 @@
             result.append(subArray)
             return
         }
-        
+
+        // 순서를 고려하기 때문에 0에서 n까지 반복
         for i in 0..<n {
             if visited[i] { continue }
             
@@ -126,6 +128,41 @@
     ```
 
 <br>
+
+> ### 중복순열(Permutation with Repetition)
+- 서로 다른 n개 중 **중복을 허용해서 r개를 순서를 고려해서** 뽑는 경우의 수
+
+- 구현 코드
+```swift
+func permuteWithRepetition<T>(elements: [T], length: Int) -> [[T]] {
+    var result: [[T]] = []
+    
+    func backtrack(current: [T]) {
+        if current.count == length {
+            result.append(current)
+            return
+        }
+
+        // 중복을 허용하기 때문에 visited가 없고 0부터 n까지 반복
+        for element in elements {
+            var newCurrent = current
+            newCurrent.append(element)
+            backtrack(current: newCurrent)
+        }
+    }
+    
+    backtrack(current: [])
+    return result
+}
+
+let elements = [1, 2, 3]
+let length = 2
+let permutations = permuteWithRepetition(elements: elements, length: length)
+for permutation in permutations {
+    print(permutation)
+}
+
+```
 
 > 참고 출처
 - [코딩팩토리](https://coding-factory.tistory.com/606)
