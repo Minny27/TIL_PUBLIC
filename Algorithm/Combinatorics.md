@@ -163,6 +163,7 @@ let combinations = combinateWithRepetition(elements: elements, length: length)
 for combi in combinations {
     print(combi)
 }
+
 // 결과
 // [1, 1]
 // [1, 2]
