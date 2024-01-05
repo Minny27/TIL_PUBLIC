@@ -12,53 +12,44 @@
 
 - 구현 코드
 ```swift
-let n = 4, m = 2
-let array = [1,2,3,4]
-var visited = Array(repeating: false, count: n)
-var result = [[Int]]()
-
-func combination(_ subArray: [Int], _ index: Int, _ count: Int, _ totalCount: Int) {
-    if count == totalCount {
-        result.append(subArray)
-        return
-    }
-
-    // 순서를 고려하지 않기 때문에 index에서 n까지 반복
-    for i in stride(from: index, to: n, by: 1) {
-        if visited[i] { continue }
-        
-        var subArray = subArray
-        subArray.append(array[i])
-        
-        visited[i] = true
-        combination(subArray, i, count + 1, totalCount)
-        visited[i] = false
-    }
-}
-
-func printResult() {
-    for i in result {
-        for j in i {
-            print(j, terminator: " ")
+func combinate<T>(elements: [T], length: Int) -> [[T]] {
+    var result: [[T]] = []
+    var visited = Array(repeating: false, count: elements.count)
+    
+    func backtrack(current: [T], index: Int) {
+        if current.count == length {
+            result.append(current)
+            return
         }
-        print()
+
+        for i in index..<elements.count {
+            if visited[i] { continue }
+            
+            var newCurrent = current
+            newCurrent.append(elements[i])
+            
+            visited[i] = true
+            backtrack(current: newCurrent, index: i)
+            visited[i] = false
+        }
     }
+    
+    backtrack(current: [], index: 0)
+    return result
 }
 
-func solution() {
-    combination([], 0, 0, m)
-    printResult()
+let elements = [1, 2, 3]
+let length = 2
+let combinations = combinate(elements: elements, length: length)
+for combi in combinations {
+    print(combi)
 }
-
-solution()
 
 // 결과
-// 1 2
-// 1 3
-// 1 4
-// 2 3
-// 2 4
-// 3 4 
+// [1, 2]
+// [1, 3]
+// [2, 3]
+
 ```
 
 <br>
@@ -72,59 +63,47 @@ solution()
 
 - 구현 코드
 ```swift
-let n = 4, m = 2
-let array = [1,2,3,4]
-var visited = Array(repeating: false, count: n)
-var result = [[Int]]()
-
-func permutation(_ subArray: [Int], _ count: Int, _ totalCount: Int) {
-    if count == totalCount {
-        result.append(subArray)
-        return
-    }
-
-    // 순서를 고려하기 때문에 0에서 n까지 반복
-    for i in 0..<n {
-        if visited[i] { continue }
-        
-        var subArray = subArray
-        subArray.append(array[i])
-        
-        visited[i] = true
-        permutation(subArray, count + 1, totalCount)
-        visited[i] = false
-    }
-}
-
-func printResult() {
-    for i in result {
-        for j in i {
-            print(j, terminator: " ")
+func permutate<T>(elements: [T], length: Int) -> [[T]] {
+    var result: [[T]] = []
+    var visited = Array(repeating: false, count: elements.count)
+    
+    func backtrack(current: [T]) {
+        if current.count == length {
+            result.append(current)
+            return
         }
-        print()
+
+        for i in 0..<elements.count {
+            if visited[i] { continue }
+            
+            var newCurrent = current
+            newCurrent.append(elements[i])
+            
+            visited[i] = true
+            backtrack(current: newCurrent)
+            visited[i] = false
+        }
     }
+    
+    backtrack(current: [])
+    return result
 }
 
-func solution() {
-    permutation([], 0, m)
-    printResult()
+let elements = [1, 2, 3]
+let length = 2
+let permutations = permutate(elements: elements, length: length)
+for permu in permutations {
+    print(permu)
 }
-
-solution()
 
 // 결과
-// 1 2
-// 1 3
-// 1 4
-// 2 1
-// 2 3
-// 2 4
-// 3 1
-// 3 2
-// 3 4
-// 4 1
-// 4 2
-// 4 3 
+// [1, 2]
+// [1, 3]
+// [2, 1]
+// [2, 3]
+// [3, 1]
+// [3, 2]
+
 ```
 <br>
 
