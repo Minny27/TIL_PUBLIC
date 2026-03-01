@@ -11,6 +11,7 @@
 - [DataStructure](https://github.com/Minny27/TIL_PUBLIC/tree/main/DataStructure)
 - [Git](https://github.com/Minny27/TIL_PUBLIC/tree/main/Git)
 - [IOS](https://github.com/Minny27/TIL_PUBLIC/tree/main/IOS)
+- [Interview](https://github.com/Minny27/TIL_PUBLIC/tree/main/Interview)
 - [NLP](https://github.com/Minny27/TIL_PUBLIC/tree/main/NLP)
 - [Network](https://github.com/Minny27/TIL_PUBLIC/tree/main/Network)
 - [OS](https://github.com/Minny27/TIL_PUBLIC/tree/main/OS)
