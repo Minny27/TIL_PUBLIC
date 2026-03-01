@@ -5,3 +5,131 @@
 //  Created by SeungMin on 3/1/26.
 //
 
+# **3.1 Approachable Concurrency**
+
+The slogan “single‑threaded by default” means an `async` function executes on whatever actor you call it from—**no surprise thread hops**. Want fan‑out parallelism? Mark methods with `@concurrent`.
+
+```swift
+@MainActor
+final class PhotoProcessor {
+  func extractThumbnails() async { /* main‑safe */ }
+  @concurrent
+  func generateHDR(from raws: [RawImage]) async -> CGImage {
+      try await raws.concurrentMap(processExposure)
+  }
+}
+```
+
+*Advantages*
+
+- UI code drops `@MainActor` clutter.
+- Race‑free by default, explicit when you scale out.
+- Existing `Task.detached` still functions, but you probably need it less.
+
+# **3.2 InlineArray & Span — Stack Performance Without Pointers**
+
+`InlineArray<N, Element>` embeds `N` independent fields. `Span<Element>` offers *safe* contiguous views.
+
+```swift
+var kernel: InlineArray<25, Float> = [
+    1, 4, 6, 4, 1,
+    4,16,24,16, 4,
+    6,24,36,24, 6,
+    4,16,24,16, 4,
+    1, 4, 6, 4, 1
+]
+let factor = 1.0 / 256.0
+for i in kernel.span.indices { kernel.span[i] *= factor }
+```
+
+*Why you care*: no heap allocations, zero ARC traffic, and compiler auto‑vectorisation gets easier.
+
+# **3.3 Typed Notifications**
+
+Replace brittle string keys with `generics`:
+
+```swift
+for await event in NotificationCenter.default.notifications(of: .keyboardWillShow) {
+    let frame: CGRect = event.userInfo[.frameEnd]
+    adjustUI(for: frame)
+}
+```
+
+Errors surface at compile‑time, not crash‑time.
+
+# **3.5 Observation 2.0 -> Async Streams**
+
+`@Observable` classes now synthesize an `AsyncSequence` interface:
+
+```swift
+@Observable class Model { var progress: Double = 0 }
+
+for await p in model.$progress.values { print(p) }
+```
+
+Combine remains supported, but this is 100 % Foundation — no extra import.
+
+# **3.8 Isolated Conformances**
+
+`@MainActor` types can now conform to nonisolated protocols without `Sendable` boilerplate, unblocking heterogenous collections.
+
+# **4. Swift Everywhere — Beyond macOS & iOS**
+
+- **Embedded Swift**: Now supports full `String` APIs, interpolations, and existential `any` protocols, letting you log human‑readable diagnostics from a Nordic nRF52.
+- **Server Swift**: gRPC‑Swift v2 rewrites its core in structured concurrency. Apple open‑sourced **`swift‑containers`**, a library for building OCI images in pure Swift—no Docker daemon needed.
+- **WebAssembly**: Official target triples land; run `swift build --triple wasm32-unknown-wasi` and serve Swift in the browser.
+- **FreeBSD**: Upgraded from community patch set to Tier‑2 support with CI bots.
+
+# **Real‑World Story — Password Breach API Rewrite**
+
+Apple’s privacy engineering group ported its breach‑detection backend from Go to Swift 6.2. On identical M2 Ultra Minis:
+
+- p99 latency dropped from 18 ms to 9 ms.
+- Throughput climbed from 7 k RPS to 10 k RPS.
+- Peak memory shrank by 150 MB thanks to `InlineArray`.
+
+Result: one less rack in the data centre ⚡️.
+
+## Function Names with Spaces
+
+```swift
+func `This is a test`() {
+    print("Yes, you can use spaces in function names now!")
+}
+```
+
+### **Enum Cases That Start with Numbers**
+
+```swift
+enum HTTPError: String {
+    case `401` = "Unauthorized"
+    case `404` = "Not Found"
+    case `500` = "Internal Server Error"
+    case `502` = "Bad Gateway"
+}
+```
+
+## Default Value Parameter
+
+```swift
+// The count is not set
+Text("The count is \(count, default: "not set")")
+```
+
+## Deinit async
+
+MainAsync 클래스에서 deinit할 때 actor로부터 격리를 시키기 위해서 `isolated` 키워드로 deinit 생성 가능
+
+```swift
+isolated deinit {
+    await dispose()
+}
+```
+
+### ※ 참고 출처
+
+[medium1](https://medium.com/@mihaipopa/wwdc-25-explained-ready-for-swift-6-2-3e240380441f)
+
+[medium2](https://useyourloaf.com/blog/swift-default-value-in-string-interpolations/)
+
+[medium3](https://blog.stackademic.com/raw-identifiers-in-swift-6-2-func-this-is-a-raw-function-1d00b0abb161)
