@@ -1,0 +1,176 @@
+//
+//  6.2.4.swift
+//  
+//
+//  Created by SeungMin on 3/1/26.
+//
+
+# **🔹 1️⃣ @Sendable과 격리(Isolation)**
+
+- @Sendable은 **격리를 지정하는 키워드가 아님**
+- 의미는: “이 클로저는 동시 실행 컨텍스트(acotor, Task)로 이동 가능”
+- 그래서 컴파일러는 @Sendable 클로저를 **isolation boundary**로 취급함
+- 부모 actor 격리를 자동 상속한다고 가정하지 않음
+
+---
+
+# **🔹 2️⃣ nonisolated(nonsending)의 의미**
+
+의미는 이거 하나:
+
+> 이 클로저는 Sendable은 아니지만
+>
+
+> 현재 실행 중인 actor/executor 격리를 유지한 채 실행돼야 한다
+>
+
+즉,
+
+- 다른 actor로 자유롭게 보내지지 않음
+- 대신 현재 격리를 유지함
+
+---
+
+# **🔹 3️⃣ PR #86112가 고친 것**
+
+문제였던 상황:
+
+- @Sendable은 boundary라 부모 격리를 기본적으로 상속하지 않음
+- nonisolated(nonsending)을 붙여도
+- boundary를 넘는 순간 격리 정보가 끊기는 버그가 있었음
+- 불필요한 hop / runtime isolation 손실 발생
+
+수정 후:
+
+- nonisolated(nonsending) 격리 정보가
+- boundary 클로저에도 transfer 됨
+- 불필요한 hop 감소
+- isolation 일관성 개선
+
+즉:
+
+> “격리를 유지하라”는 의도가 boundary에서도 깨지지 않도록 수정됨
+>
+
+---
+
+# **🔹 4️⃣ @MainActor**
+
+# **함수의 의미**
+
+```swift
+@MainActor
+func test() async {}
+```
+
+이건:
+
+> caller가 누구든 상관없이
+>
+
+> test는 항상 MainActor에서 실행됨
+>
+
+caller가 @MainActor인지 아닌지는 상관 없음.
+
+---
+
+# **🔹 5️⃣ 클로저까지 메인 고정하려면?**
+
+이게 중요 포인트.
+
+## **가장 명확한 방법**
+
+```swift
+@MainActor
+func test(_ body: @MainActor () async -> Void)
+```
+
+이게 “이 클로저는 반드시 메인에서 실행된다”는 가장 강한 계약.
+
+---
+
+## **nonisolated(nonsending) @Sendable은 언제?**
+
+- API 설계상 @Sendable이 필요할 때
+- 그래도 호출자의 격리를 유지하고 싶을 때
+- 불필요한 hop 방지 목적
+
+하지만 이건 “무조건 메인 고정”을 표현하는 가장 직관적인 방법은 아님.
+
+---
+
+# **🔹 6️⃣ hop vs 컨텍스트 스위칭**
+
+## **hop**
+
+- actor/executor 간 이동
+- Swift Concurrency 개념
+- 논리적 격리 이동
+
+## **context switching**
+
+- OS 레벨 스레드 전환
+- CPU 레지스터 교체
+- 훨씬 저수준
+
+hop이 항상 context switch는 아님.
+
+겹칠 수는 있지만 동일 개념은 아님.
+
+---
+
+# **🔹 7️⃣ 네트워크 await의 실제 동작**
+
+```swift
+@MainActor
+func load() async {
+  let data = try await api.fetch()
+}
+```
+
+흐름은:
+
+1. MainActor에서 시작
+2. await에서 Task suspend
+3. I/O 대기 (OS 레벨 처리)
+4. 완료 후 MainActor에서 resume
+
+이건 “스레드 왔다 갔다”라기보다:
+
+> Task suspend → I/O → 같은 actor에서 resume
+>
+
+에 가까움.
+
+---
+
+# **🔹 8️⃣ I/O vs CPU 작업 구분 (실무 핵심)**
+
+## **I/O 대기**
+
+- await로 suspend
+- 메인 점유 거의 없음
+- 보통 안전
+
+## **CPU 바운드**
+
+- 그냥 계산
+- @MainActor 위에서 하면 UI 버벅임
+- 별도 actor나 background executor로 분리 필요
+
+---
+
+# **🔹 오늘의 핵심 문장**
+
+- @Sendable은 격리 보장이 아니다.
+- nonisolated(nonsending)은 호출자의 격리 유지 의도다.
+- PR은 boundary에서 그 격리 전달이 깨지던 걸 고쳤다.
+- @MainActor는 함수 실행 위치 계약이다.
+- hop은 actor 이동, context switch는 OS 스레드 이동이다.
+- 네트워크 await은 “스레드 이동”이 아니라 “suspend/resume”이다.
+- CPU 작업은 메인에서 그냥 돈다.
+
+### ※ 참고
+
+[PR86112](https://github.com/swiftlang/swift/pull/86112)
