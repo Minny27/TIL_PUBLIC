@@ -17,4 +17,6 @@
 - [OS](https://github.com/Minny27/TIL_PUBLIC/tree/main/OS)
 - [Python](https://github.com/Minny27/TIL_PUBLIC/tree/main/Python)
 - [Swift](https://github.com/Minny27/TIL_PUBLIC/tree/main/Swift)
+- [SwiftUI](https://github.com/Minny27/TIL_PUBLIC/tree/main/SwiftUI)
+- [UIKit](https://github.com/Minny27/TIL_PUBLIC/tree/main/UIKit)
 - [Vue](https://github.com/Minny27/TIL_PUBLIC/tree/main/Vue)
